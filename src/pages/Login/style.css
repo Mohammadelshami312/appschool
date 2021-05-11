@@ -1,0 +1,43 @@
+.login {
+  background-color: #fafafa;
+  height: 100vh;
+  position: relative;
+}
+.login .container {
+  height: 100%;
+}
+.login .container .signin {
+  width: 375px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border: 1px solid #cccccc;
+  margin-bottom: 100px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+  .login .container .signin {
+    width: 100%;
+  }
+}
+
+.login .container .signin h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.login .container .signin .form-control:focus {
+  border-color: #ff6347;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px hsl(9deg 100% 64% / 56%);
+}
+
+.login .container .signin .btn-primary {
+  background-color: #ff6347;
+  border: 1px solid #ff6347;
+}

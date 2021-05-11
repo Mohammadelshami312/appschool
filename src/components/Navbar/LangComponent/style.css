@@ -1,0 +1,20 @@
+.navigation {
+  width: 200px;
+  margin: 20px auto;
+  background-color: #f00;
+  padding: 0 20px;
+  min-height: 48px;
+}
+.navigation > li {
+  color: #fff;
+  padding: 15px 10px;
+  float: left;
+}
+.navigation > li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  position: relative;
+}

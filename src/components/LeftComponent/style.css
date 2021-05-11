@@ -1,0 +1,11 @@
+.left-component {
+  /* width: 20%; */
+  /* float: left; */
+  height: inherit;
+  background: #fafafa;
+}
+@media (max-width: 768px) {
+  .left-component {
+    height: auto;
+  }
+}

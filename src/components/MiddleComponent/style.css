@@ -1,0 +1,11 @@
+/*Start Names Table Section */
+main .row {
+  width: 100%;
+  margin-left: 0;
+}
+.middle-component {
+  width: 60%;
+  float: left;
+}
+
+/* End Names Table Section */

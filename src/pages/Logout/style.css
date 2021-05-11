@@ -1,0 +1,25 @@
+nav .logout {
+  float: right;
+  float: right;
+  height: 100%;
+  width: 112px;
+}
+nav .logout:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #f0f0f02e;
+}
+nav .logout i {
+  font-size: 16px;
+  height: 29px;
+  width: 29px;
+  line-height: 30px;
+  padding-left: 7px;
+  text-align: center;
+  margin-top: 4px;
+  margin-top: 4px;
+  margin-left: 11px;
+  margin-right: 6px;
+  background: #ffffff1c;
+  border-radius: 50%;
+}
